@@ -42,6 +42,10 @@ body {
   background-color: #8e6ba7;
 }
 
+ul {
+  display: flex;
+}
+
 li {
   margin: 10px;
 }
@@ -231,8 +235,11 @@ p {
     margin-top: 20px;
   }
 
-  .kanan {
+  .kanan img {
     margin: 0;
+    max-width: 100%;
+    height: auto;
+    margin-left: -65px;
   }
 
   .kiri,
@@ -240,10 +247,30 @@ p {
   .kanan2 {
     margin-top: 20px;
     text-align: center;
+    margin-top: 5px;
+  }
+
+  .btn-login {
+    width: 20%;
+    height: 30px;
+    margin-top: 5px;
+  }
+
+  .btn-register {
+    width: 20%;
+    height: 30px;
   }
 
   .kiri {
     padding: 0 15px;
+  }
+
+  .kiri2 {
+    margin-left: 30px;
+  }
+
+  .kanan2 .gmbr {
+    margin-left: 30px;
   }
 
   .kiri2,
